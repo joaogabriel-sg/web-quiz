@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="João Gabriel Silva Gomes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Quiz</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="page-quiz">
+    <section class="quiz-init">
+      <form class="player-form">
+        <input type="text" name="name" id="name" class="player-name">
+        <button class="btn-submit">Começar</button>
+      </form>
+    </section>
+
+    <section class="quiz-game set-none">
+      <header class="header-datas">
+        <p class="greetings"></p>
+      </header>
+      <section class="questions-and-answers"></section>
+      <footer class="footer-datas">
+        <p class="questions-counter"></p>
+        <button class="btn-next">Próximo</button>
+      </footer>
+    </section>
+
+    <section class="quiz-congratulations set-none">
+      <img src="./images/trophy.svg" alt="Parabéns por concluir o quiz">
+      <h1>Você completou o quiz!</h1>
+      <h2 class="quiz-result"></h2>
+      <button class="btn-start-again">Começar novamente</button>
+    </section>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

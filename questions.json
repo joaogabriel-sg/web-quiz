@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "Qual o significado de HTML?",
+    "answers": [
+      "HypnoToad Multiple Loop",
+      "HardText Markup Language",
+      "HyperText Markup Language",
+      "Nenhuma das alternativas"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 2,
+    "question": "Qual a forma correta de declarar uma regra CSS?",
+    "answers": [
+      "seletor { valor > propriedade }", 
+      "seletor { propriedade: valor }", 
+      "seletor { propriedade = valor }", 
+      "Nenhuma das alternativas"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "question": "Qual alternativa representa a forma correta para declarar uma variável em JavaScript?",
+    "answers": [
+      "var a = 2", 
+      "var = a", 
+      "var a = 2 inteiros", 
+      "Nenhuma das alternativas"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 4,
+    "question": "Qual função usamos para exibir valores no corpo da páginas com JavaScript?",
+    "answers": [
+      "alert()",
+      "Windows.open()",
+      "document.write()",
+      "Nenhuma das alternativas"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 5,
+    "question": "Qual é a tag HTML correta para fazer uma lista drop-down?",
+    "answers": [
+      "select",
+      "list",
+      "dropdown",
+      "Nenhuma das alternativas"
+    ],
+    "correct": 0
+  }
+]
